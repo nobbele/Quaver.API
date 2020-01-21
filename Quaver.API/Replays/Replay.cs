@@ -248,7 +248,7 @@ namespace Quaver.API.Replays
 
                         Frames.Add(new ReplayFrame(int.Parse(frameSplit[0]), (ReplayKeyPressState)Enum.Parse(typeof(ReplayKeyPressState), frameSplit[1])));
                     }
-                    catch (Exception e)
+                    catch (Exception)
                     {
                         continue;
                     }

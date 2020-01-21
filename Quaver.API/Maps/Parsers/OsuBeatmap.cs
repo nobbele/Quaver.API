@@ -368,7 +368,7 @@ namespace Quaver.API.Maps.Parsers
                             }
                         }
                     }
-                    catch (Exception e)
+                    catch (Exception)
                     {
                         IsValid = false;
                     }
@@ -420,7 +420,7 @@ namespace Quaver.API.Maps.Parsers
                     }
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 IsValid = false;
             }

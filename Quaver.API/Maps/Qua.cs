@@ -725,12 +725,12 @@ namespace Quaver.API.Maps
             //values.Shuffle(new Random(seed));
             throw new NotImplementedException();
 
-            for (var i = 0; i < HitObjects.Count; i++)
+            /*for (var i = 0; i < HitObjects.Count; i++)
             {
                 var temp = HitObjects[i];
                 temp.Lane = values[temp.Lane - 1];
                 HitObjects[i] = temp;
-            }
+            }*/
         }
 
         /// <summary>
