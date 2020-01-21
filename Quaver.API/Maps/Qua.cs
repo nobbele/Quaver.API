@@ -12,7 +12,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using MonoGame.Extended.Collections;
+//using MonoGame.Extended.Collections;
 using Quaver.API.Enums;
 using Quaver.API.Maps.Parsers;
 using Quaver.API.Maps.Processors.Difficulty;
@@ -722,7 +722,8 @@ namespace Quaver.API.Maps
             var values = new List<int>();
             values.AddRange(Enumerable.Range(0, GetKeyCount()).Select(x => x + 1));
 
-            values.Shuffle(new Random(seed));
+            //values.Shuffle(new Random(seed));
+            throw new NotImplementedException();
 
             for (var i = 0; i < HitObjects.Count; i++)
             {
